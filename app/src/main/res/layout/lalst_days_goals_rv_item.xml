@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/goal_img_lay"
+        android:background="@drawable/circular_img_bg"
+        android:padding="4dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/goal_item_img"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/trophyfirst" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/day_txt"
+        android:layout_marginStart="1dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        tools:text="Mon" />
+
+
+</LinearLayout>

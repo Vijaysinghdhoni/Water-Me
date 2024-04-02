@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Water Me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zeromlwater">0 ml</string>
+    <string name="water_notification_title">Have you had some water?</string>
+    <string name="water_notification_content">It\'s time to drink water to stay hydrated</string>
+    <string name="channel_water_reminder">Water Reminder</string>
+    <string name="channel_water_description">Receive notifications to remind you to drink water</string>
+</resources>
