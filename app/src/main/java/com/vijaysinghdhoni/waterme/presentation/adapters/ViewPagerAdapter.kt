@@ -4,9 +4,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.vijaysinghdhoni.waterme.presentation.HomeFragment
-import com.vijaysinghdhoni.waterme.presentation.SettingFragment
-import com.vijaysinghdhoni.waterme.presentation.StatisticFragment
+import com.vijaysinghdhoni.waterme.presentation.fragments.HomeFragment
+import com.vijaysinghdhoni.waterme.presentation.fragments.SettingFragment
+import com.vijaysinghdhoni.waterme.presentation.fragments.StatisticFragment
 
 private const val NUM_TABS = 3
 

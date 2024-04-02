@@ -1,4 +1,4 @@
-package com.vijaysinghdhoni.waterme.presentation
+package com.vijaysinghdhoni.waterme.presentation.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

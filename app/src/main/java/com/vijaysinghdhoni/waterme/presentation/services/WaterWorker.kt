@@ -10,7 +10,7 @@ import androidx.core.app.NotificationCompat
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import com.vijaysinghdhoni.waterme.R
-import com.vijaysinghdhoni.waterme.presentation.MainActivity
+import com.vijaysinghdhoni.waterme.presentation.activity.MainActivity
 import com.vijaysinghdhoni.waterme.util.Constants.NOTIFICATION_ID
 import com.vijaysinghdhoni.waterme.util.Constants.WATER_CHANNEL_ID
 

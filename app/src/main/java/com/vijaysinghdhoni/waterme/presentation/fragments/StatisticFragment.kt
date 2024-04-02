@@ -1,4 +1,4 @@
-package com.vijaysinghdhoni.waterme.presentation
+package com.vijaysinghdhoni.waterme.presentation.fragments
 
 import android.annotation.SuppressLint
 import android.icu.text.SimpleDateFormat
