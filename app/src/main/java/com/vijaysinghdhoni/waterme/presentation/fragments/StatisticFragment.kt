@@ -57,20 +57,20 @@ class StatisticFragment : Fragment() {
     @SuppressLint("SetTextI18n")
     private fun lastWaterIntakeObserve() {
         viewLifecycleOwner.lifecycleScope.launch {
-            viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED){
+            viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {
                 viewModel.last7daysWaterIntake.collectLatest { waterIntakeList ->
 
-                    if(waterIntakeList.isEmpty()){
-                        Log.d("last","last seven days water intake is empty")
-                    }else{
-                        Log.d("last","last seven days water intake is $waterIntakeList")
-                        Log.d("last","last seven days water intake is ${waterIntakeList.size}")
+                    if (waterIntakeList.isEmpty()) {
+                        Log.d("last", "last seven days water intake is empty")
+                    } else {
+                        Log.d("last", "last seven days water intake is $waterIntakeList")
+                        Log.d("last", "last seven days water intake is ${waterIntakeList.size}")
                         val lastSevendaysWaterIntakeNumber = waterIntakeList.size
-                        val waterPerDayFrequencyDecimal = lastSevendaysWaterIntakeNumber.toDouble()/7
+                        val waterPerDayFrequencyDecimal =
+                            lastSevendaysWaterIntakeNumber.toDouble() / 7
                         val waterPerDayFrequency = "%.2f".format(waterPerDayFrequencyDecimal)
                         binding.frequencyNumber.text = "$waterPerDayFrequency Times/day"
                     }
-
 
 
                 }
@@ -158,13 +158,13 @@ class StatisticFragment : Fragment() {
         date?.let { calendar.time = it }
 
         return when (calendar.get(Calendar.DAY_OF_WEEK)) {
-            Calendar.SUNDAY -> "Sunday"
-            Calendar.MONDAY -> "Monday"
-            Calendar.TUESDAY -> "Tuesday"
-            Calendar.WEDNESDAY -> "Wednesday"
-            Calendar.THURSDAY -> "Thursday"
-            Calendar.FRIDAY -> "Friday"
-            Calendar.SATURDAY -> "Saturday"
+            Calendar.SUNDAY -> "Sun"
+            Calendar.MONDAY -> "Mon"
+            Calendar.TUESDAY -> "Tue"
+            Calendar.WEDNESDAY -> "Wed"
+            Calendar.THURSDAY -> "Thur"
+            Calendar.FRIDAY -> "Fri"
+            Calendar.SATURDAY -> "Sat"
             else -> ""
         }
     }
