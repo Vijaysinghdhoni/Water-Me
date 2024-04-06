@@ -6,7 +6,7 @@ various modern Android development libraries.
 # Tech Used
 - **Kotlin** - **Android Studio** - **View Binding** - **Jetpack Navigation Components** - **Hilt for Dependency Injection**- **Kotlin Coroutines and Flows**
 - **MVVM Architecture** - **RecyclerView with DiffUtil** - **Tab View with ViewPager2**
-- **WorkManager** -**Android Notifications**- **New Splash Screen Api:** -**Room DataBase** -**Mp Charts**
+- **WorkManager** -**Android Notifications**- **New Splash Screen Api:** -**Room DataBase** -**Mp Charts** -**Unit Test**
 
 # Preview
 
