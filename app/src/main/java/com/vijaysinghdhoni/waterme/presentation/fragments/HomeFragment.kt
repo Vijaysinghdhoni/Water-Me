@@ -103,10 +103,7 @@ class HomeFragment : Fragment() {
         viewModel.getUserLastWaterIntake()
         observeUserLastWaterIntake()
         observeDailyWaterLog()
-        //when user first time opens the app provide a ui for taking sleep wakeup time , water goal , notifaciation time etc
-        // if posible try to change or improve bar chart beacuse some problem are happing on bar chart
         //notification sleep and wakeup time
-        //all business logic from view-model not in fragment or activity(like calculation etc)
         val list = viewModel.getListOfWaterIntakeItems()
         waterIntakeRvAdapter.differ.submitList(list)
         onRvItemClick()
